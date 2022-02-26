@@ -1,0 +1,114 @@
+body{
+	color: rgb(65, 66, 36);
+	background: #6A6850;
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 300;
+	font-stretch: semi-expanded;
+	font-size: 15px;
+
+}
+
+h1, h2{
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 300;
+	
+}
+
+h1{
+	color: #BF8E74;;
+	font-size: 60px;
+	font-weight: lighter;
+	font-stretch: extra-expanded;
+
+}
+
+h2{
+	font-size: 24px;
+	font-weight: lighter;
+	font-stretch: expanded;
+	color: #BF8E74;
+}
+
+a{
+	font-family: 'Tajawal', sans-serif;
+	text-decoration: none;
+	color: #C89E7A;
+	font-weight: 400;
+}
+
+a:hover{
+	font-family: 'Tajawal', sans-serif;
+	font-weight: 400;
+	color: #898B73;
+}
+
+/* Custom design with class */
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width:  760px){
+	.container{
+		width: 600px;
+		}
+}
+
+@media (max-width:  500px){
+	.container{
+		width: 400px;
+	}
+
+}
+
+	
+
+
+.card-white{
+	background: white;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0,1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-green{
+	background:#898B73;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-green:hover{
+	color:#898B73;
+	background:#E3DDD5;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 30px;
+	color:#898B73 ;
+}
+
+.list-inline i: hover {
+	color: #898B73;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+
+}
+
